@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name":" OXYGEN SENSOR (NARROWBAND)",
+        "price": 200,
+        "image": "image/O2.png"
+    },
+    {
+        "id": 2,
+        "name":" MASS AIRFLOW SENSOR",
+        "price": 250,
+        "image": "image/MAF.png"
+    },
+    {
+        "id": 4,
+        "name":"COOLANT TEMP SENSOR",
+        "price": 350,
+        "image": "image/CTS.png"
+    },
+    {
+        "id": 3,
+        "name":"CAMSHAFT POSITION SENSOR",
+        "price": 300,
+        "image": "image/CAM.png"
+    },
+    {
+        "id": 5,
+        "name":"CRANK POSITION SENSOR",
+        "price": 350,
+        "image": "image/CPS.png"
+    },
+    {
+        "id": 6,
+        "name":"EXHAUST TEMP  SENSOR",
+        "price": 350,
+        "image": "image/EX_TEMP.png"
+    },
+    {
+        "id": 7,
+        "name":"FUEL PRESSURE SENSOR",
+        "price": 350,
+        "image": "image/FPS.png"
+    },
+    {
+        "id": 8,
+        "name":"FUEL TEMP SENSOR",
+        "price": 350,
+        "image": "image/FTS.png"
+    },
+    {
+        "id": 9,
+        "name":"AIR TEMP SENSOR",
+        "price": 350,
+        "image": "image/ATS.png"
+    },
+    {
+        "id": 10,
+        "name":"KNOCK SENSOR",
+        "price": 350,
+        "image": "image/KNOCK.png"
+    },
+    {
+        "id": 11,
+        "name":"MANIFOLD ABSOLUTE PRESSURE SENSOR",
+        "price": 350,
+        "image": "image/MAP.png"
+    },
+    {
+        "id": 12,
+        "name":"OIL PRESSURE SENSOR",
+        "price": 350,
+        "image": "image/OPS.png"
+    },
+    {
+        "id": 13,
+        "name":"OIL TEMP SENSOR",
+        "price": 350,
+        "image": "image/OTS.png"
+    },
+    {
+        "id": 14,
+        "name":"STEPPER MOTOR",
+        "price": 350,
+        "image": "image/STEPMOTOR.png"
+    },
+    {
+        "id": 15,
+        "name":"THROTTLE POSITION SENSOR",
+        "price": 350,
+        "image": "image/TPS.png"
+    },
+    {
+        "id": 16,
+        "name":"WHEEL SPEED SENSOR",
+        "price": 350,
+        "image": "image/SPEED.png"
+    }
+
+
+]

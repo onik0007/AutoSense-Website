@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+    
+    <div class="container">
+        <header>
+            <div class="title">PRODUCT LIST</div>
+                <div class="search-bar">
+                    <!-- Dropdown start -->
+                    <div class="dropdown">
+                    <div id="drop-text" class="dropdown-text">
+                        <span id="span">Everything</span>
+                        <i id="icon" class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <ul id="list" class="dropdown-list">
+                        <li class="dropdown-list-item">Everything</li>
+                        <li class="dropdown-list-item">Videos</li>
+                        <li class="dropdown-list-item">Community</li>
+                        <li class="dropdown-list-item">Playlists</li>
+                        <li class="dropdown-list-item">Shorts</li>
+                    </ul>
+                    </div>
+                    <!-- Dropdown ends -->
+            
+                    <!-- Search box input start -->
+                    <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search anything..." />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <!-- Search box input ends -->
+                </div>
+                <!-- Search Bar ends -->
+        <!--
+            <div class="containerS">
+                <div class="row">    
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <div class="input-group">
+                            <div class="input-group-btn search-panel">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                    <span id="search_concept">All</span> <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu scrollable-dropdown" role="menu">
+                                    <li><a href="#">Search Vehicle Option 1</a></li>
+                                    <li><a href="#">Search Vehicle Option 2</a></li>
+                                    <li><a href="#">Search Vehicle Option 3</a></li>
+                                </ul>
+                            </div>
+                            <input type="hidden" name="search_param" value="all" id="search_param">
+                            <input type="text" class="form-control" name="x" id="search" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        -->
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span>0</span>
+            </div>
+        </header>
+        <div class="listProduct">
+            <div class="item">
+                <img src = "image/O2.png" alt="">
+                <h2> Name Product</h2>
+                <div class="price">$200</div>
+                <button class= "addCart">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+            <div class="item">
+                <div class = "image">
+                    <img src="image/1.png" alt="">
+                </div>
+                <div class="name">
+                    name
+                </div>
+                <div class="totalPrice">
+                    $200
+                </div>
+                <div class="quantity">
+                    <span class = "minus"><</span>
+                    <span>1</span>
+                    <span class = "plus">></span>
+                </div>
+            </div>    
+        </div>
+        <div id = "totalCartPrice"></div>
+
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">Check Out</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>
